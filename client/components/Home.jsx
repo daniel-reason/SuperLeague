@@ -1,12 +1,10 @@
 import React from 'react'
 
-import Header from './Header'
 
 const Home = ({props}) => (
-  <div className="container">
 
+  <div className="container">
     <div className="homeContent">
-      <Header />
       <div className="two columns">
         <div className="picOne" id="homeBoxes">
           Left side pic
