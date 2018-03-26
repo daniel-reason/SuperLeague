@@ -13,6 +13,7 @@ const NavBar = ({props}) => (
             <a href="#players" id="palyers-link">Players</a>
             <a href="#stats" id="stats-link">Stats</a>
             <a href="#signUp" id="signUp-link">Sign Up</a>
+            <a href="#admin" id="admin-link">Admin</a>
           </div>
         </div>
       </div>

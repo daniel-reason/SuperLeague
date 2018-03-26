@@ -23711,6 +23711,10 @@
 	
 	var _reactRouterDom = __webpack_require__(220);
 	
+	var _Admin = __webpack_require__(264);
+	
+	var _Admin2 = _interopRequireDefault(_Admin);
+	
 	var _Events = __webpack_require__(263);
 	
 	var _Events2 = _interopRequireDefault(_Events);
@@ -23757,6 +23761,7 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/admin', component: _Admin2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/events', component: _Events2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/news', component: _News2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/players', component: _Players2.default }),
@@ -27739,8 +27744,7 @@
 	            _react2.default.createElement("br", null),
 	            _react2.default.createElement("input", { type: "text", placeholder: "Email" }),
 	            _react2.default.createElement("br", null),
-	            "Birthday ",
-	            _react2.default.createElement("input", { type: "date", value: "Birthdate" }),
+	            _react2.default.createElement("input", { type: "text", placeholder: "Current Age" }),
 	            _react2.default.createElement("br", null),
 	            _react2.default.createElement(
 	              "select",
@@ -27961,6 +27965,11 @@
 	            "a",
 	            { href: "#signUp", id: "signUp-link" },
 	            "Sign Up"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#admin", id: "admin-link" },
+	            "Admin"
 	          )
 	        )
 	      )
@@ -28008,6 +28017,45 @@
 	};
 	
 	exports.default = Events;
+
+/***/ }),
+/* 264 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Admin = function Admin(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "adminHome" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "eight columns" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "adminLinks" },
+	          "Links to admin abilities"
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Admin;
 
 /***/ })
 /******/ ]);

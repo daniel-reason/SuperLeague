@@ -10,7 +10,7 @@ const SignUp = ({props}) => (
             <input type="text" placeholder="First Name" /><br />
             <input type="text" placeholder="Last Name" /><br />
             <input type="text" placeholder="Email" /><br />
-            Birthday <input type="date" value="Birthdate" /><br />
+            <input type="text" placeholder="Current Age" /><br />
             <select>
               <option value="" disabled selected hidden>Grade</option>
               <option value="Mens">Mens</option>
