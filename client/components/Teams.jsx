@@ -6,7 +6,7 @@ const Teams = ({props}) => (
     <div className="teams">
       <div className="eight columns">
         <div className="teamsContent">
-          Team stuff
+          Team stats and stuff
         </div>
       </div>
     </div>

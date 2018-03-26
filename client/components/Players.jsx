@@ -6,7 +6,7 @@ const Players = ({props}) => (
     <div className="players">
       <div className="eight columns">
         <div className="playersContent">
-          Latest news stuff
+          Players and profiles
         </div>
       </div>
     </div>

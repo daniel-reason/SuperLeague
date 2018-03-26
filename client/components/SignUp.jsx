@@ -1,16 +1,16 @@
 import React from 'react'
 
-const Stats = ({props}) => (
+const SignUp = ({props}) => (
 
   <div className="container">
-    <div className="stats">
+    <div className="signUp">
       <div className="eight columns">
-        <div className="statsContent">
-          Stats stuff
+        <div className="signUpContent">
+          Sign Up Form
         </div>
       </div>
     </div>
   </div>
 )
 
-export default Stats
+export default SignUp
