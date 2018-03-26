@@ -27726,11 +27726,79 @@
 	      { className: "signUp" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "eight columns" },
+	        { className: "twelve columns" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "signUpContent" },
-	          "Sign Up Form"
+	          _react2.default.createElement(
+	            "form",
+	            { onSubmit: confirmEmail, id: "register" },
+	            _react2.default.createElement("input", { type: "text", placeholder: "First Name" }),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("input", { type: "text", placeholder: "Last Name" }),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("input", { type: "text", placeholder: "Email" }),
+	            _react2.default.createElement("br", null),
+	            "Birthday ",
+	            _react2.default.createElement("input", { type: "date", value: "Birthdate" }),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement(
+	              "select",
+	              null,
+	              _react2.default.createElement(
+	                "option",
+	                { value: "", disabled: true, selected: true, hidden: true },
+	                "Grade"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Mens" },
+	                "Mens"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Womens" },
+	                "Womens"
+	              )
+	            ),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement(
+	              "select",
+	              null,
+	              _react2.default.createElement(
+	                "option",
+	                { value: "", disabled: true, selected: true, hidden: true },
+	                "Position"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Forward" },
+	                "Forward"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Defence" },
+	                "Defence"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Forward/Defence" },
+	                "Forward/Defence"
+	              ),
+	              _react2.default.createElement(
+	                "option",
+	                { value: "Goalie" },
+	                "Goalie"
+	              )
+	            ),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement(
+	              "button",
+	              { type: "submit", form: "register", value: "Submit" },
+	              "Register"
+	            ),
+	            _react2.default.createElement("input", { type: "reset" })
+	          )
 	        )
 	      )
 	    )
@@ -27738,6 +27806,18 @@
 	};
 	
 	exports.default = SignUp;
+	
+	
+	function confirmEmail(ev) {
+	  ev.preventDefault(ev);
+	
+	  console.log(ev.target.elements[0].value);
+	  console.log(ev.target.elements[1].value);
+	  console.log(ev.target.elements[2].value);
+	  console.log(ev.target.elements[3].value);
+	  console.log(ev.target.elements[4].value);
+	  console.log(ev.target.elements[5].value);
+	}
 
 /***/ }),
 /* 260 */

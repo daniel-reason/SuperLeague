@@ -52,6 +52,7 @@ body {
 }
 
 .navigation {
+  text-align: center;
   width: 99%;
   margin: 5px 0px;
   padding: 10px;
@@ -79,6 +80,10 @@ body {
   transition: 1s;
 }
 
+.signUp {
+  text-align: center;
+}
+
  #ihslLogo {
    float: left;
    width: 300px;
@@ -91,6 +96,10 @@ body {
    padding-top: 50px;
    padding-left: 20px;
  }
+
+#radio {
+  margin-left: 10px;
+}
 
   .one.column,
   .one.columns                    { width: 8%; }
