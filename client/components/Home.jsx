@@ -4,7 +4,7 @@ import React from 'react'
 const Home = ({props}) => (
 
   <div className="container">
-    <div classname="twelve columns">
+    <div className="twelve columns">
       <div className="homeContent">
         <div className="two columns">
           <div className="picOne">

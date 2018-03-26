@@ -23788,7 +23788,7 @@
 	    { className: "container" },
 	    _react2.default.createElement(
 	      "div",
-	      { classname: "twelve columns" },
+	      { className: "twelve columns" },
 	      _react2.default.createElement(
 	        "div",
 	        { className: "homeContent" },
@@ -27841,8 +27841,37 @@
 	        { className: "twelve columns" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "navBar" },
-	          "Navigation Bar"
+	          { className: "links" },
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#", id: "home-link" },
+	            "Home"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#news", id: "news-link" },
+	            "News"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#Teams", id: "teams-link" },
+	            "Teams"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#Players", id: "palyers-link" },
+	            "Players"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#Stats", id: "stats-link" },
+	            "Stats"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#SignUp", id: "signUp-link" },
+	            "Sign Up"
+	          )
 	        )
 	      )
 	    )
