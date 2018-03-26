@@ -8,10 +8,11 @@ const NavBar = ({props}) => (
           <div className="links">
             <a href="#" id="home-link">Home</a>
             <a href="#news" id="news-link">News</a>
-            <a href="#Teams" id="teams-link">Teams</a>
-            <a href="#Players" id="palyers-link">Players</a>
-            <a href="#Stats" id="stats-link">Stats</a>
-            <a href="#SignUp" id="signUp-link">Sign Up</a>
+            <a href="#events" id="events-link">Events</a>
+            <a href="#teams" id="teams-link">Teams</a>
+            <a href="#players" id="palyers-link">Players</a>
+            <a href="#stats" id="stats-link">Stats</a>
+            <a href="#signUp" id="signUp-link">Sign Up</a>
           </div>
         </div>
       </div>

@@ -52,6 +52,7 @@ body {
 }
 
 .navigation {
+  width: 99%;
   margin: 5px 0px;
   padding: 10px;
   background: white;

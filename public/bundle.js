@@ -23711,6 +23711,10 @@
 	
 	var _reactRouterDom = __webpack_require__(220);
 	
+	var _Events = __webpack_require__(263);
+	
+	var _Events2 = _interopRequireDefault(_Events);
+	
 	var _Header = __webpack_require__(219);
 	
 	var _Header2 = _interopRequireDefault(_Header);
@@ -23753,8 +23757,9 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/events', component: _Events2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/news', component: _News2.default }),
-	        _react2.default.createElement(_reactRouterDom.Route, { path: '/playes', component: _Players2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/players', component: _Players2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/signup', component: _SignUp2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/stats', component: _Stats2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/teams', component: _Teams2.default })
@@ -27854,22 +27859,27 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#Teams", id: "teams-link" },
+	            { href: "#events", id: "events-link" },
+	            "Events"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "#teams", id: "teams-link" },
 	            "Teams"
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#Players", id: "palyers-link" },
+	            { href: "#players", id: "palyers-link" },
 	            "Players"
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#Stats", id: "stats-link" },
+	            { href: "#stats", id: "stats-link" },
 	            "Stats"
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "#SignUp", id: "signUp-link" },
+	            { href: "#signUp", id: "signUp-link" },
 	            "Sign Up"
 	          )
 	        )
@@ -27879,6 +27889,45 @@
 	};
 	
 	exports.default = NavBar;
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Events = function Events(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "events" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "eight columns" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "eventContent" },
+	          "Latest Events stuff"
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Events;
 
 /***/ })
 /******/ ]);

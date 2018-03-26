@@ -1,6 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
+import Events from './Events'
 import Header from './Header'
 import Home from './Home'
 import News from './News'
@@ -16,8 +17,9 @@ function App (props) {
       <Router>
         <div>
           <Route exact path='/' component={Home} />
+          <Route path='/events' component={Events} />
           <Route path='/news' component={News} />
-          <Route path='/playes' component={Players} />
+          <Route path='/players' component={Players} />
           <Route path='/signup' component={SignUp} />
           <Route path='/stats' component={Stats} />
           <Route path='/teams' component={Teams} />
