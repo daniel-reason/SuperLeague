@@ -23686,7 +23686,7 @@
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-	   value: true
+	  value: true
 	});
 	
 	var _redux = __webpack_require__(193);
@@ -23788,41 +23788,36 @@
 	    { className: "container" },
 	    _react2.default.createElement(
 	      "div",
-	      { className: "homeContent" },
+	      { classname: "twelve columns" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "two columns" },
+	        { className: "homeContent" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "picOne", id: "homeBoxes" },
-	          "Left side pic"
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { className: "eight columns", id: "homeBoxes" },
+	          { className: "two columns" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "picOne" },
+	            "Left side pic"
+	          )
+	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "newsContent" },
-	          "Middle news stuff"
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { className: "two columns" },
+	          { className: "eight columns" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "frontPage" },
+	            "Middle news stuff"
+	          )
+	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "picTwo", id: "homeBoxes" },
-	          "Right side pic"
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { className: "twelve columns" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "footerBox" },
-	          "Bottom links"
+	          { className: "two columns" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "picTwo" },
+	            "Right side pic"
+	          )
 	        )
 	      )
 	    )
@@ -23835,7 +23830,7 @@
 /* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -23845,27 +23840,32 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _NavBar = __webpack_require__(262);
+	
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Header = function Header(_ref) {
 	  var props = _ref.props;
 	  return _react2.default.createElement(
-	    "div",
-	    { className: "twelve columns" },
+	    'div',
+	    { className: 'twelve columns' },
 	    _react2.default.createElement(
-	      "div",
-	      { className: "header" },
-	      _react2.default.createElement("div", { id: "ihslLogo" }),
+	      'div',
+	      { className: 'header' },
+	      _react2.default.createElement('div', { id: 'ihslLogo' }),
 	      _react2.default.createElement(
-	        "div",
-	        { id: "ihslText" },
+	        'div',
+	        { id: 'ihslText' },
 	        _react2.default.createElement(
-	          "h1",
+	          'h1',
 	          null,
-	          "Inline Hockey Super League"
+	          'Inline Hockey Super League'
 	        )
 	      )
-	    )
+	    ),
+	    _react2.default.createElement(_NavBar2.default, null)
 	  );
 	};
 	
@@ -27811,6 +27811,45 @@
 	};
 	
 	exports.default = Teams;
+
+/***/ }),
+/* 262 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var NavBar = function NavBar(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "navigation" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "navBar" },
+	          "Navigation Bar"
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = NavBar;
 
 /***/ })
 /******/ ]);

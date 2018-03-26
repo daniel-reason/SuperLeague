@@ -4,25 +4,22 @@ import React from 'react'
 const Home = ({props}) => (
 
   <div className="container">
-    <div className="homeContent">
-      <div className="two columns">
-        <div className="picOne" id="homeBoxes">
-          Left side pic
+    <div classname="twelve columns">
+      <div className="homeContent">
+        <div className="two columns">
+          <div className="picOne">
+            Left side pic
+          </div>
         </div>
-      </div>
-      <div className="eight columns" id="homeBoxes">
-        <div className="newsContent">
-          Middle news stuff
+        <div className="eight columns">
+          <div className="frontPage">
+            Middle news stuff
+          </div>
         </div>
-      </div>
-      <div className="two columns">
-        <div className="picTwo" id="homeBoxes">
-          Right side pic
-        </div>
-      </div>
-      <div className="twelve columns">
-        <div className="footerBox">
-          Bottom links
+        <div className="two columns">
+          <div className="picTwo">
+            Right side pic
+          </div>
         </div>
       </div>
     </div>
