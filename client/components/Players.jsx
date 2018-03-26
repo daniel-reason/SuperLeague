@@ -1,11 +1,11 @@
 import React from 'react'
 
-const News = ({props}) => (
+const Players = ({props}) => (
 
   <div className="container">
-    <div className="news">
+    <div className="players">
       <div className="eight columns">
-        <div className="newsContent">
+        <div className="playersContent">
           Latest news stuff
         </div>
       </div>
@@ -13,4 +13,4 @@ const News = ({props}) => (
   </div>
 )
 
-export default News
+export default Players

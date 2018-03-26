@@ -1,16 +1,16 @@
 import React from 'react'
 
-const News = ({props}) => (
+const Teams = ({props}) => (
 
   <div className="container">
-    <div className="news">
+    <div className="teams">
       <div className="eight columns">
-        <div className="newsContent">
-          Latest news stuff
+        <div className="teamsContent">
+          Team stuff
         </div>
       </div>
     </div>
   </div>
 )
 
-export default News
+export default Teams
